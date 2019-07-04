@@ -125,7 +125,7 @@ jQuery(document).on('ready', function() {
 	var _tg_upcomingeventcounter = jQuery('#tg-upcomingeventcounter');
 	_tg_upcomingeventcounter.countdown('2019/07/17', function(event) {
 		var $this = jQuery(this).html(event.strftime(''
-			+ '<div class="tg-eventcounter"><span>%-D</span><span> Restantes</span></div>'
+			+ '<div class="tg-eventcounter"><span>%-D</span><span> Dias restantes</span></div>'
 			+ '<div class="tg-eventcounter"><span>%H</span><span>Horas</span></div>'
 			+ '<div class="tg-eventcounter"><span>%M</span><span>Minutos</span></div>'
 			+ '<div class="tg-eventcounter"><span>%S</span><span>Segundos</span></div>'
