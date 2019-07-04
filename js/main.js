@@ -123,24 +123,24 @@ jQuery(document).on('ready', function() {
 			NEXT EVENT COUNTER
 	-------------------------------------- */
 	var _tg_upcomingeventcounter = jQuery('#tg-upcomingeventcounter');
-	_tg_upcomingeventcounter.countdown('2018/12/12', function(event) {
+	_tg_upcomingeventcounter.countdown('2019/07/17', function(event) {
 		var $this = jQuery(this).html(event.strftime(''
-			+ '<div class="tg-eventcounter"><span>%-D</span><span> Days Left</span></div>'
-			+ '<div class="tg-eventcounter"><span>%H</span><span>Hours</span></div>'
-			+ '<div class="tg-eventcounter"><span>%M</span><span>Minutes</span></div>'
-			+ '<div class="tg-eventcounter"><span>%S</span><span>Seconds</span></div>'
+			+ '<div class="tg-eventcounter"><span>%-D</span><span> Restantes</span></div>'
+			+ '<div class="tg-eventcounter"><span>%H</span><span>Horas</span></div>'
+			+ '<div class="tg-eventcounter"><span>%M</span><span>Minutos</span></div>'
+			+ '<div class="tg-eventcounter"><span>%S</span><span>Segundos</span></div>'
 		));
 	});
 	/* -------------------------------------
 			NEXT EVENT COUNTER
 	-------------------------------------- */
 	var _tg_upcomingeventcountervtwo = jQuery('#tg-upcomingeventcountervtwo');
-	_tg_upcomingeventcountervtwo.countdown('2018/12/12', function(event) {
+	_tg_upcomingeventcountervtwo.countdown('2019/07/17', function(event) {
 		var $this = jQuery(this).html(event.strftime(''
 			+ '<div class="tg-eventcounterholder"><div class="tg-eventcounter"><span>%-D</span><span> Days</span></div></div>'
-			+ '<div class="tg-eventcounterholder"><div class="tg-eventcounter"><span>%H</span><span>Hours</span></div></div>'
-			+ '<div class="tg-eventcounterholder"><div class="tg-eventcounter"><span>%M</span><span>Minutes</span></div></div>'
-			+ '<div class="tg-eventcounterholder"><div class="tg-eventcounter"><span>%S</span><span>Seconds</span></div></div>'
+			+ '<div class="tg-eventcounterholder"><div class="tg-eventcounter"><span>%H</span><span>Horas</span></div></div>'
+			+ '<div class="tg-eventcounterholder"><div class="tg-eventcounter"><span>%M</span><span>Minutos</span></div></div>'
+			+ '<div class="tg-eventcounterholder"><div class="tg-eventcounter"><span>%S</span><span>Segundos</span></div></div>'
 		));
 	});
 	/* -------------------------------------
