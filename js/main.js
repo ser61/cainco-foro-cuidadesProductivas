@@ -199,9 +199,9 @@ jQuery(document).on('ready', function() {
 	var _tg_locationmap = jQuery("#tg-locationmap");
 	_tg_locationmap.gmap3({
 		marker: {
-			address: "1600 Elizabeth St, Melbourne, Victoria, Australia",
+			latLng: [-17.7906784,-63.1773305],
 			options: {
-				title: "Event Orgnizer",
+				title: "Foros CAINCO",
 				icon: "images/map-marker.png",
 			}
 		},
